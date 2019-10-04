@@ -117,7 +117,7 @@ public class Slider extends View {
     }
 
     private float dpToPixel(float valueInDp){
-        return TypedValue.applyDimension((TypedValue.COMPLEX_UNIT_DIP, valueInDp, getResources().getDisplayMetrics());
+        return TypedValue.applyDimension((TypedValue.COMPLEX_UNIT_DIP), valueInDp, getResources().getDisplayMetrics());
     }
 
     private Point toPos(float value){
